@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49248
+49292
 Successfully changed project path to: /Users/lennonalvarez146/Documents/GitHub/Final-Project/Final Project
 /Users/lennonalvarez146/Documents/GitHub/Final-Project/Final Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/lennonalvarez146/Documents/GitHub/F
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8438381248] Host "[IP] 10.194.21.245 [Port] 0 [Flags] 2 [Guid] 1975131084 [EditorId] 1975131084 [Version] 1048832 [Id] OSXEditor(0,mac-studio-5.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8365062848] Host "[IP] 10.194.21.245 [Port] 0 [Flags] 2 [Guid] 1016573774 [EditorId] 1016573774 [Version] 1048832 [Id] OSXEditor(0,mac-studio-5.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8438381248] Host "[IP] 10.194.21.245 [Port] 0 [Flags] 2 [Guid] 1975131084 [EditorId] 1975131084 [Version] 1048832 [Id] OSXEditor(0,mac-studio-5.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8365062848] Host "[IP] 10.194.21.245 [Port] 0 [Flags] 2 [Guid] 1016573774 [EditorId] 1016573774 [Version] 1048832 [Id] OSXEditor(0,mac-studio-5.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 2.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,46 +76,46 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56601
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56342
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000906 seconds.
-- Loaded All Assemblies, in  0.176 seconds
+Registered in 0.001324 seconds.
+- Loaded All Assemblies, in  0.182 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.133 seconds
-Domain Reload Profiling: 309ms
-	BeginReloadAssembly (39ms)
+- Finished resetting the current domain, in  0.137 seconds
+Domain Reload Profiling: 319ms
+	BeginReloadAssembly (42ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (20ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (26ms)
+	initialDomainReloadingComplete (28ms)
 	LoadAllAssembliesAndSetupDomain (84ms)
-		LoadAssemblies (39ms)
+		LoadAssemblies (41ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (83ms)
-			TypeCache.Refresh (83ms)
-				TypeCache.ScanAssembly (75ms)
+			TypeCache.Refresh (82ms)
+				TypeCache.ScanAssembly (74ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (133ms)
+	FinalizeReload (137ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (100ms)
+		SetupLoadedEditorAssemblies (102ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
 			ProcessInitializeOnLoadAttributes (69ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,8 +123,8 @@ Domain Reload Profiling: 309ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.323 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.302 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -132,35 +132,35 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.296 seconds
-Domain Reload Profiling: 620ms
-	BeginReloadAssembly (67ms)
+- Finished resetting the current domain, in  0.298 seconds
+Domain Reload Profiling: 599ms
+	BeginReloadAssembly (64ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (207ms)
-		LoadAssemblies (131ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (115ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (105ms)
-			TypeCache.Refresh (96ms)
-				TypeCache.ScanAssembly (86ms)
+		AnalyzeDomain (102ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (84ms)
 			ScanForSourceGeneratedMonoScriptInfo (6ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (296ms)
+	FinalizeReload (298ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (211ms)
+		SetupLoadedEditorAssemblies (214ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (29ms)
-			ProcessInitializeOnLoadAttributes (167ms)
+			ProcessInitializeOnLoadAttributes (170ms)
 			ProcessInitializeOnLoadMethodAttributes (9ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -168,12 +168,12 @@ Domain Reload Profiling: 620ms
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 32 unused Assets / (51.1 KB). Loaded Objects now: 3552.
 Memory consumption went from 126.0 MB to 126.0 MB.
-Total: 2.038459 ms (FindLiveObjects: 0.097167 ms CreateObjectMapping: 0.046791 ms MarkObjects: 1.837334 ms  DeleteObjects: 0.056834 ms)
+Total: 1.951042 ms (FindLiveObjects: 0.089042 ms CreateObjectMapping: 0.040458 ms MarkObjects: 1.756833 ms  DeleteObjects: 0.064500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -190,17 +190,901 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 205.370290 seconds.
-  path: Assets/Images/LeWaluigi.png
-  artifactKey: Guid(4f9b81c852e6c4e079c613578d4df2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/LeWaluigi.png using Guid(4f9b81c852e6c4e079c613578d4df2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8bac12cb32dcfd28a3c40ef3aff1d5') in 0.064179 seconds
+  Time since last request: 1154.830404 seconds.
+  path: Assets/Colors/Red.mat
+  artifactKey: Guid(3863a2f8f0bff40188146af6fd472d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colors/Red.mat using Guid(3863a2f8f0bff40188146af6fd472d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9314e0770e9416ebfdfdc78c05fdafa') in 0.053800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.358150 seconds.
+  path: Assets/Colors/Gold.mat
+  artifactKey: Guid(5279de648ed024de3bf6ab1b9f6e4dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colors/Gold.mat using Guid(5279de648ed024de3bf6ab1b9f6e4dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce27194f18af067e51415477e0ce03f9') in 0.004860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 135.791119 seconds.
+  path: Assets/Images/mqdefault.jpg
+  artifactKey: Guid(008adb9f585474ba39647233d9129d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/mqdefault.jpg using Guid(008adb9f585474ba39647233d9129d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bcb2fe22c99a8a1af7223722c7249a') in 0.007073 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 7.333003 seconds.
-  path: Assets/Images/LeWaluigi.png
-  artifactKey: Guid(4f9b81c852e6c4e079c613578d4df2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/LeWaluigi.png using Guid(4f9b81c852e6c4e079c613578d4df2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3877109f7825ff08a26bd4f4e0c98e38') in 0.031589 seconds
+  Time since last request: 19.796430 seconds.
+  path: Assets/Images/mqdefault (1).png
+  artifactKey: Guid(977bc214b9bdc4a7593bfa4fbfd53a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/mqdefault (1).png using Guid(977bc214b9bdc4a7593bfa4fbfd53a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3509f06247fbd7b61bdfa3c440c5b2b7') in 0.003590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.825562 seconds.
+  path: Assets/Images/mqdefault (1).png
+  artifactKey: Guid(977bc214b9bdc4a7593bfa4fbfd53a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/mqdefault (1).png using Guid(977bc214b9bdc4a7593bfa4fbfd53a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d95c042c9b12387c2d7b6c1a6dfc5b5') in 0.011623 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1327.368896 seconds.
+  path: Assets/Gunegon Asset
+  artifactKey: Guid(dfe2c9b63e438491691738cb93a472dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset using Guid(dfe2c9b63e438491691738cb93a472dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e8370aea4cc3f69671eb8644523d58') in 0.000337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.173122 seconds.
+  path: Assets/Gunegon Asset/Enviorment
+  artifactKey: Guid(6a453b59af0824388aa4454e35201b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment using Guid(6a453b59af0824388aa4454e35201b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de88353939a244dd7c5913e5cac7e493') in 0.000325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 71.740605 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2
+  artifactKey: Guid(345c1fb7caba449c884ed69103616e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2 using Guid(345c1fb7caba449c884ed69103616e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b58c5b71c94cccdad913b1b07fec925') in 0.000260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.013713 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/contents.png
+  artifactKey: Guid(2b4b244c671e24adf883ac5d70d31ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/contents.png using Guid(2b4b244c671e24adf883ac5d70d31ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0727155810279f3208a573adaac377') in 0.004192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.813406 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets
+  artifactKey: Guid(50c12d84687104790894fcb0fc975d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets using Guid(50c12d84687104790894fcb0fc975d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c72257a07c5559f2b783fddb00023f8') in 0.000590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.888713 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx
+  artifactKey: Guid(5636a5c8b66ab4cdbad01bee99a2f48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx using Guid(5636a5c8b66ab4cdbad01bee99a2f48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0f6bd0e27b2715654336b9837c3706') in 0.000538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.077937 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_blue.fbx
+  artifactKey: Guid(b6d5ecd06e09c4b22b29d2592bbe944f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_blue.fbx using Guid(b6d5ecd06e09c4b22b29d2592bbe944f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16e24de424cec074935d14904434ca9') in 0.023471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_patternC_red.fbx
+  artifactKey: Guid(aff86b8ef1e3e4015b8bd23365124397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_patternC_red.fbx using Guid(aff86b8ef1e3e4015b8bd23365124397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8adf5133196be80a1d08d7d3b3bfe4') in 0.007053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_white.fbx
+  artifactKey: Guid(acfe0e9c4edfe40a38f05923552a0639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_white.fbx using Guid(acfe0e9c4edfe40a38f05923552a0639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ea361da30942b1b344af2e4effc5e4') in 0.006729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_shield_green.fbx
+  artifactKey: Guid(18a385288773244648c2a24f7c05ecf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_shield_green.fbx using Guid(18a385288773244648c2a24f7c05ecf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1187ddb6afce82f4deb14052806d6b69') in 0.006620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/book_grey.fbx
+  artifactKey: Guid(06484784f21e948c18a5e3c4d270e9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/book_grey.fbx using Guid(06484784f21e948c18a5e3c4d270e9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc2623fbdc4ad7cb3c983f3a9272082') in 0.006706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/barrier_colum_half.fbx
+  artifactKey: Guid(3a99d7685d98045038cc01d977e27db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/barrier_colum_half.fbx using Guid(3a99d7685d98045038cc01d977e27db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd47badb8963fe598e535af7fd51ed42') in 0.006633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bookcase_double_decoratedA.fbx
+  artifactKey: Guid(d94a35a69d59f43d99439c95c500393b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bookcase_double_decoratedA.fbx using Guid(d94a35a69d59f43d99439c95c500393b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d87eafc0b79aa01d2850c233cb2e70c') in 0.006421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_shield_red.fbx
+  artifactKey: Guid(fda46a90cc37d41e397d1c6d4c5354a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_shield_red.fbx using Guid(fda46a90cc37d41e397d1c6d4c5354a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a2d430019f57acbebb5f2f54b3ea39') in 0.017568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_red.fbx
+  artifactKey: Guid(843197adc414c48c7bb5a4422009775b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_red.fbx using Guid(843197adc414c48c7bb5a4422009775b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de858ef04309e8f8078e01ab36c42fa2') in 0.008222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bed_decorated.fbx
+  artifactKey: Guid(0dc57ec316c2d4978a52b36721ad3b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bed_decorated.fbx using Guid(0dc57ec316c2d4978a52b36721ad3b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681af553640d1871732c0b41db970097') in 0.009084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_patternC_green.fbx
+  artifactKey: Guid(3e9159d5c3898466f9b12788a57353a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_patternC_green.fbx using Guid(3e9159d5c3898466f9b12788a57353a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84dc9044c1377b7d2b7d6ef5f5cd9d8') in 0.006452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_patternC_white.fbx
+  artifactKey: Guid(9cc6f2e00a8b44fca8981b2e8d954973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_patternC_white.fbx using Guid(9cc6f2e00a8b44fca8981b2e8d954973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fd81d45ae7d32be93c86360c2a73b1') in 0.006083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_patternC_yellow.fbx
+  artifactKey: Guid(168912a51968e479cb4c75318b8ac2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_patternC_yellow.fbx using Guid(168912a51968e479cb4c75318b8ac2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c61984c78f06c7d4ff2395e99e9f4c') in 0.006164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/barrier_corner.fbx
+  artifactKey: Guid(0cef0eef15a924a8a8538727204c2372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/barrier_corner.fbx using Guid(0cef0eef15a924a8a8538727204c2372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244990b0981e7ae3fc6ffafe61157eb9') in 0.005826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_patternA_brown.fbx
+  artifactKey: Guid(1bd78b8553e5f472f99107094d7ba729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_patternA_brown.fbx using Guid(1bd78b8553e5f472f99107094d7ba729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78990c3f86ef7d5a591977141243f1c7') in 0.006432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bottle_A_green.fbx
+  artifactKey: Guid(3b5ac3e6590c640119caed17f50dac8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bottle_A_green.fbx using Guid(3b5ac3e6590c640119caed17f50dac8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a08fd912c5ce23cae18f3df8e614a53') in 0.006338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_shield_blue.fbx
+  artifactKey: Guid(f7e60514ef4104c079ab56e4477621ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_shield_blue.fbx using Guid(f7e60514ef4104c079ab56e4477621ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58dafb7cbf9f62e00d5691bee7f13ef4') in 0.006767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/book_tan.fbx
+  artifactKey: Guid(d188d107d14274c9d873fa1c773a9dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/book_tan.fbx using Guid(d188d107d14274c9d873fa1c773a9dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e0a3dd03e4f513c03c27d4b05aafa2') in 0.006857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_patternC_blue.fbx
+  artifactKey: Guid(02cb2629a1a84432fa8202b789033fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_patternC_blue.fbx using Guid(02cb2629a1a84432fa8202b789033fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0efa71978c5c978f3f6390bc52d135') in 0.006217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_triple_red.fbx
+  artifactKey: Guid(60e6052ede8634a6285ee364f7ce6d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_triple_red.fbx using Guid(60e6052ede8634a6285ee364f7ce6d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2204eb5285f53935c4d31876d49fdf8b') in 0.006680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_patternC_brown.fbx
+  artifactKey: Guid(d975ea9e2192f4018a637da63aeac255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_patternC_brown.fbx using Guid(d975ea9e2192f4018a637da63aeac255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664341ea030496a26379eb89485db8a5') in 0.006010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bookcase_double_decoratedB.fbx
+  artifactKey: Guid(ffedb95a94fe94aed862ae368d373908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bookcase_double_decoratedB.fbx using Guid(ffedb95a94fe94aed862ae368d373908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bda499da7c41c6aa34e9c45af2b9ac') in 0.006657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_shield_brown.fbx
+  artifactKey: Guid(791f100e55575470c9d151f6a93b3604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_shield_brown.fbx using Guid(791f100e55575470c9d151f6a93b3604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0f13a5463af40180fcdbb94aa85924') in 0.006422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_triple_green.fbx
+  artifactKey: Guid(1ec59bc6dd8294d5cbaafcbb6fce444c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_triple_green.fbx using Guid(1ec59bc6dd8294d5cbaafcbb6fce444c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cfc0f8a9f2bc65fff12200de7eedfd') in 0.005928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/book_brown.fbx
+  artifactKey: Guid(6f480971bf036410a8b17cc385cd7105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/book_brown.fbx using Guid(6f480971bf036410a8b17cc385cd7105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc87ef8d570cd207ab960be96d4ede12') in 0.006026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/barrier_column.fbx
+  artifactKey: Guid(191686e506b42421a97eadb0386d32de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/barrier_column.fbx using Guid(191686e506b42421a97eadb0386d32de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c33510177b4ae812f78f2a30c7c1b8') in 0.006125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_thin_red.fbx
+  artifactKey: Guid(bdde0d9c2c0354afe8e1fdf66b83a75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_thin_red.fbx using Guid(bdde0d9c2c0354afe8e1fdf66b83a75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d946fddfbc4d209301cb9874fb8c94') in 0.007121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/barrel_large_decorated.fbx
+  artifactKey: Guid(d7ac7152effa442eaa1e02a4d7d09060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/barrel_large_decorated.fbx using Guid(d7ac7152effa442eaa1e02a4d7d09060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377f3b7ec05e662a2c35b80753d83552') in 0.006392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_patternB_white.fbx
+  artifactKey: Guid(669bcfba8ae9546a4a09bd0b829da5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_patternB_white.fbx using Guid(669bcfba8ae9546a4a09bd0b829da5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba860a497dfe4c32d42d8a74f8bf50a7') in 0.006748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bookcase_single_decoratedA.fbx
+  artifactKey: Guid(0c2754d8993204ddb985b6529422d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bookcase_single_decoratedA.fbx using Guid(0c2754d8993204ddb985b6529422d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a37ad484db917cb2df6e2de6cb3c02a') in 0.006677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_patternB_yellow.fbx
+  artifactKey: Guid(91f08354f38aa4b15990ddcf06816431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/banner_patternB_yellow.fbx using Guid(91f08354f38aa4b15990ddcf06816431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6f99aaf1e0bd13f5ffb99d00dbc1c8') in 0.006379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bookcase_double.fbx
+  artifactKey: Guid(8898a1a6fc0e84dfc85c7b4bcb98a878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bookcase_double.fbx using Guid(8898a1a6fc0e84dfc85c7b4bcb98a878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1faa62c89bf1f72b025652db4195c81e') in 0.006923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.578970 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bottle_A_labeled_green.fbx
+  artifactKey: Guid(2e25ffe455782473f9bb9e991b7d1dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bottle_A_labeled_green.fbx using Guid(2e25ffe455782473f9bb9e991b7d1dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79db5ad225708b7063b0361fe62e3da0') in 0.012913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bottle_C_brown.fbx
+  artifactKey: Guid(afc60009cf9984a8c9c38b0c0886b4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bottle_C_brown.fbx using Guid(afc60009cf9984a8c9c38b0c0886b4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3730987832664650784f55b436e353c') in 0.009646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bucket.fbx
+  artifactKey: Guid(151a7716b934d4bf8a354630dde40a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bucket.fbx using Guid(151a7716b934d4bf8a354630dde40a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a0c757bd24f8df1b0f7507772b7e9c') in 0.008415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/candle_triple.fbx
+  artifactKey: Guid(1d5334bc06b234d01ab4b60430ed0bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/candle_triple.fbx using Guid(1d5334bc06b234d01ab4b60430ed0bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e920129af88110ad06c2895bf6aabab7') in 0.008261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bucket_pickaxes.fbx
+  artifactKey: Guid(8ce067895f19547a9a97375a94f43bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/bucket_pickaxes.fbx using Guid(8ce067895f19547a9a97375a94f43bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cbce6488666f023256b676dfb68455') in 0.006621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/candle_lit.fbx
+  artifactKey: Guid(a8a33df6fd26e471eb671f55ca877a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/candle_lit.fbx using Guid(a8a33df6fd26e471eb671f55ca877a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d73d91f600eaff88b0f431650716b04') in 0.006244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/crates_stacked.fbx
+  artifactKey: Guid(03c18bea9c7a84c0aa367b9613030d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/crates_stacked.fbx using Guid(03c18bea9c7a84c0aa367b9613030d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b999038976721f44bf020745eea178') in 0.007060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_dirt_small_A.fbx
+  artifactKey: Guid(679fe5f256b044842a126a2195587c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_dirt_small_A.fbx using Guid(679fe5f256b044842a126a2195587c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b799efaa85f5b30d48941417ec9e6628') in 0.006281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_foundation_corner.fbx
+  artifactKey: Guid(65ed3fa28c66a494a9a41e7f0162fba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_foundation_corner.fbx using Guid(65ed3fa28c66a494a9a41e7f0162fba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d59717c752482541a36c1fa84ea2c6b') in 0.006452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/crate_small.fbx
+  artifactKey: Guid(6b80cade4ff59480e83f00076d5189d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/crate_small.fbx using Guid(6b80cade4ff59480e83f00076d5189d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e66b9852a76a61a18b5d73117a0c69') in 0.006449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/box_large.fbx
+  artifactKey: Guid(54d56216a35f6441aa6652f0fb6c7bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/box_large.fbx using Guid(54d56216a35f6441aa6652f0fb6c7bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e8692a7bd3b897f9bf3677dd0fb946') in 0.007417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_dirt_small_corner.fbx
+  artifactKey: Guid(62dde78592dac4d468a569476cddda28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_dirt_small_corner.fbx using Guid(62dde78592dac4d468a569476cddda28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ee205db176230b97ab314ae5bce8b4') in 0.006215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/crate_large_decorated.fbx
+  artifactKey: Guid(3ab5353cc2d9247789830607ae6a340d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/crate_large_decorated.fbx using Guid(3ab5353cc2d9247789830607ae6a340d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e0a85c5f7f6ffe36448bdfa5a51ab7') in 0.006584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/candle_melted.fbx
+  artifactKey: Guid(a6ac5fdbae8ce4904b81c117b307e94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/candle_melted.fbx using Guid(a6ac5fdbae8ce4904b81c117b307e94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0266c567982236248b60e2fd6bd86305') in 0.006334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/chest_large.fbx
+  artifactKey: Guid(287254649d97a4674b2e77c4eb91b587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/chest_large.fbx using Guid(287254649d97a4674b2e77c4eb91b587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb11d1e26a3ba3d378598bbcb54640f9') in 0.009675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_dirt_large_rocky.fbx
+  artifactKey: Guid(e5927726900104d7cb4398e538590a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_dirt_large_rocky.fbx using Guid(e5927726900104d7cb4398e538590a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69ab039da623c07ed1e16f6884b9830') in 0.005938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/chest_gold.fbx
+  artifactKey: Guid(3dacd963c8ea0424da6e98d9a9fb9832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/chest_gold.fbx using Guid(3dacd963c8ea0424da6e98d9a9fb9832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54e2f2cf929dbc4772db96a8c3695cb') in 0.010491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/coin_stack_medium.fbx
+  artifactKey: Guid(88d90fc8b96c34feba938169903b3c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/coin_stack_medium.fbx using Guid(88d90fc8b96c34feba938169903b3c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce632eb84704deb10e52b9a5a426cef') in 0.007387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_dirt_small_C.fbx
+  artifactKey: Guid(3d19dd4536b674694bc7886686ae243c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_dirt_small_C.fbx using Guid(3d19dd4536b674694bc7886686ae243c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af12e511f4849898f5b3bd68db57b400') in 0.006405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_dirt_large.fbx
+  artifactKey: Guid(f332541c14e54414dbc0fee87e82d91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_dirt_large.fbx using Guid(f332541c14e54414dbc0fee87e82d91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4351b9e8180185a0f42c83351cb56850') in 0.006602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_tile_big_grate.fbx
+  artifactKey: Guid(a8acb70b6e41e4c5b873a8c301f12cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_tile_big_grate.fbx using Guid(a8acb70b6e41e4c5b873a8c301f12cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31f55835cf46af321012c0e024b33b5') in 0.006852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/candle_thin_lit.fbx
+  artifactKey: Guid(57aa15f98408940d3bcb3dc6db45a31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/candle_thin_lit.fbx using Guid(57aa15f98408940d3bcb3dc6db45a31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86f575296e395610cc2661791464d3f') in 0.006690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/chest.fbx
+  artifactKey: Guid(e0eb1d36f50cb4cba8078acd6ee8a919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/chest.fbx using Guid(e0eb1d36f50cb4cba8078acd6ee8a919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9788ed412904e473dee992af20c47497') in 0.010499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.633546 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_tile_big_spikes.fbx
+  artifactKey: Guid(e32fc0dc27e5b4314874b9d8d0203cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_tile_big_spikes.fbx using Guid(e32fc0dc27e5b4314874b9d8d0203cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97434a8e54bfd2db01c1f5d74df6f0a2') in 0.016905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_tile_small.fbx
+  artifactKey: Guid(c295be5a008a64184a70bf348b5bb34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_tile_small.fbx using Guid(c295be5a008a64184a70bf348b5bb34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff288185d2caa79b8b63a0d0a331c54') in 0.009359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_tile_small_decorated.fbx
+  artifactKey: Guid(7b57cf30daf49434fa2ce40adc657628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_tile_small_decorated.fbx using Guid(7b57cf30daf49434fa2ce40adc657628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2718c512698c97532414143d39e189') in 0.007052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/keg.fbx
+  artifactKey: Guid(c1fe9404e2b7444e0b2288b72e426554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/keg.fbx using Guid(c1fe9404e2b7444e0b2288b72e426554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514a715227d1ab189a6917589663204f') in 0.007017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/pillar.fbx
+  artifactKey: Guid(47983321206b747f7a21429e26379fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/pillar.fbx using Guid(47983321206b747f7a21429e26379fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9327e85a88436501b4789e777698f80d') in 0.006286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/keyring_hanging.fbx
+  artifactKey: Guid(395ae98e58aab4f54be027d5b6741d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/keyring_hanging.fbx using Guid(395ae98e58aab4f54be027d5b6741d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23c3d6d01dbbc672d39d9768b2b3bda') in 0.006097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_tile_small_broken_B.fbx
+  artifactKey: Guid(2b33d2fdb15f64742bb041e0ea919789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_tile_small_broken_B.fbx using Guid(2b33d2fdb15f64742bb041e0ea919789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f3dfd36003877c007b5201a2787f16') in 0.006373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_tile_small_weeds_B.fbx
+  artifactKey: Guid(7f776735a60a2492b88b2067b7bb09dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_tile_small_weeds_B.fbx using Guid(7f776735a60a2492b88b2067b7bb09dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb3615385bb6ef60464e8f997820637') in 0.006632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/key_gold.fbx
+  artifactKey: Guid(9fb137a99b20942ce9e9b37109f828f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/key_gold.fbx using Guid(9fb137a99b20942ce9e9b37109f828f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee0312a5d16cc16d5363d890d863831') in 0.006662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_tile_small_broken_A.fbx
+  artifactKey: Guid(283be6c4ec170463bb28ad40b5e459ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/floor_tile_small_broken_A.fbx using Guid(283be6c4ec170463bb28ad40b5e459ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0670dcfd19b2b3b02f479986f11fab50') in 0.006278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.405979 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/plate_stack.fbx
+  artifactKey: Guid(996f303b3bc454d7983b60789621d7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/plate_stack.fbx using Guid(996f303b3bc454d7983b60789621d7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f596fc24c86ab179ffcc0d104aa95cc1') in 0.012462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/rubble_large.fbx
+  artifactKey: Guid(82e4e4b85da4043c0989b7f98d65baba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/rubble_large.fbx using Guid(82e4e4b85da4043c0989b7f98d65baba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0003cb471eef25431b34b1bf92c2fb39') in 0.009357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/rocks_gold.fbx
+  artifactKey: Guid(0df6e640ec4fd4dae9c37dcf062d9e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/rocks_gold.fbx using Guid(0df6e640ec4fd4dae9c37dcf062d9e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31978e3d32258d681d90a2e430691de1') in 0.008468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/rocks_small.fbx
+  artifactKey: Guid(2d0243b302f1f419895c6f57799a3773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/rocks_small.fbx using Guid(2d0243b302f1f419895c6f57799a3773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e73a0f077d9b2d98bd31dae9a261ba') in 0.007251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/shelf_small.fbx
+  artifactKey: Guid(f984f6548b8714b5081eca2797f4c82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/shelf_small.fbx using Guid(f984f6548b8714b5081eca2797f4c82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d03e62825961b15bd08f8c863383c1') in 0.006643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/stairs_wide.fbx
+  artifactKey: Guid(3c3828764e4864093829f0bd44df4641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/stairs_wide.fbx using Guid(3c3828764e4864093829f0bd44df4641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c78f3a32b008044716c9f624d659241') in 0.006655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/stairs.fbx
+  artifactKey: Guid(8817eee8a0cf1414b9cc0619bf615b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/stairs.fbx using Guid(8817eee8a0cf1414b9cc0619bf615b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07da7d3d215219cd1f44bec51b27a4cf') in 0.007265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/shelf_small_books.fbx
+  artifactKey: Guid(65f88c734720b487cbb81b0e9be61563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/shelf_small_books.fbx using Guid(65f88c734720b487cbb81b0e9be61563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a042b878fd8bc729bd7731f2379922cf') in 0.006386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/shelves_decorated.fbx
+  artifactKey: Guid(f6ec4c39b89954f90b36c8812dd7915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/shelves_decorated.fbx using Guid(f6ec4c39b89954f90b36c8812dd7915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668003da9898741dc72822d67a191791') in 0.007175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/scaffold_pillar_wall.fbx
+  artifactKey: Guid(f031c77fdfc5248218c9de7477618011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/scaffold_pillar_wall.fbx using Guid(f031c77fdfc5248218c9de7477618011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d662355212ee83948a87defe8b9b235') in 0.006088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/stairs_wall_left.fbx
+  artifactKey: Guid(8fc28f0a2704e4b898e13a79e27e1c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/stairs_wall_left.fbx using Guid(8fc28f0a2704e4b898e13a79e27e1c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5108a32d99bb681d997269fadfb4b52b') in 0.006293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/table_long_decorated_A.fbx
+  artifactKey: Guid(f4121b2d5ae5145788f2fbcdbad63068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/table_long_decorated_A.fbx using Guid(f4121b2d5ae5145788f2fbcdbad63068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0b1478924befa455e881e798aa344f') in 0.006980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/table_medium_decorated_A.fbx
+  artifactKey: Guid(cd8403344dc504a1eadfa040a7ac2042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/table_medium_decorated_A.fbx using Guid(cd8403344dc504a1eadfa040a7ac2042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55179beb6e4e559f345f466c5b556b50') in 0.006985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/trunk_large_A.fbx
+  artifactKey: Guid(8771e56bfa98d4dc49b1cd39d88aae89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/trunk_large_A.fbx using Guid(8771e56bfa98d4dc49b1cd39d88aae89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ef7fe8cacc8cecda25c2aed0f7e8be') in 0.006266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/sword_shield.fbx
+  artifactKey: Guid(3276b274b86bb4da38defeb5a9355346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/sword_shield.fbx using Guid(3276b274b86bb4da38defeb5a9355346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec203246cd223e85ab93b0fc8c1a88bd') in 0.006426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/stairs_wood_decorated.fbx
+  artifactKey: Guid(7b37047cfee9842c7a49f6a352ffe68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/stairs_wood_decorated.fbx using Guid(7b37047cfee9842c7a49f6a352ffe68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac1ed13fbb2758ff3e962c8c38ca865') in 0.006844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/stool.fbx
+  artifactKey: Guid(25fad6a6fa60d454981ac400df33470d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/stool.fbx using Guid(25fad6a6fa60d454981ac400df33470d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0f52df7ab3f4650ae3a60159e02486') in 0.006919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/table_long_tablecloth.fbx
+  artifactKey: Guid(9beba908bbd98410baaa26b152e849e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/table_long_tablecloth.fbx using Guid(9beba908bbd98410baaa26b152e849e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df84fae46c36935364b13d640549e51') in 0.006461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/table_medium_tablecloth.fbx
+  artifactKey: Guid(f81e9cc64bde1427884bb2f8b90193b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/table_medium_tablecloth.fbx using Guid(f81e9cc64bde1427884bb2f8b90193b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e4bdb6bf15f3e0d3d31d212711a79f') in 0.006370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/torch_lit.fbx
+  artifactKey: Guid(c8c0618c95b3c4bb890eb4598a9f2143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/torch_lit.fbx using Guid(c8c0618c95b3c4bb890eb4598a9f2143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da003cbb8a930f3bd601f14a9eba8ac0') in 0.006617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/trunk_medium_A.fbx
+  artifactKey: Guid(d206c289dd3c449d99350b5de0dda376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/trunk_medium_A.fbx using Guid(d206c289dd3c449d99350b5de0dda376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd410e918c5d0270ad9e89f4fe0bd2639') in 0.006737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/trunk_large_B.fbx
+  artifactKey: Guid(51393a0a42a72470d87047cd8c6bef28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/trunk_large_B.fbx using Guid(51393a0a42a72470d87047cd8c6bef28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb86f305ba23f3bf14c6e06c66e21378') in 0.007729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.313845 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/trunk_small_B.fbx
+  artifactKey: Guid(bb173389245794d57a7cb1cf90c476fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/trunk_small_B.fbx using Guid(bb173389245794d57a7cb1cf90c476fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027a8521481c39a4cfc680129f0afdae') in 0.012579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall.fbx
+  artifactKey: Guid(efcaa41d042414cc4833c736c3cc777f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall.fbx using Guid(efcaa41d042414cc4833c736c3cc777f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee29c55b7ccba8d0cc5089ca7f512626') in 0.009295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_archedwindow_gated_scaffold.fbx
+  artifactKey: Guid(1a7a901d4d81043ca9b4880403c2729b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_archedwindow_gated_scaffold.fbx using Guid(1a7a901d4d81043ca9b4880403c2729b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa2d0f34ea08d69617e09e6d2c7f327') in 0.008509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_pillar.fbx
+  artifactKey: Guid(9794ded7f73f448629e21718097469c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_pillar.fbx using Guid(9794ded7f73f448629e21718097469c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18734fbf0093b8caf04ed9925f5d4027') in 0.007006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_half_endcap_sloped.fbx
+  artifactKey: Guid(72544bac7a8c84adfbe452437918e0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_half_endcap_sloped.fbx using Guid(72544bac7a8c84adfbe452437918e0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f71cb3b0cd42216c071f1d2fcc3b19') in 0.007514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_half.fbx
+  artifactKey: Guid(d8472c9325bb24516b043b5817727b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_half.fbx using Guid(d8472c9325bb24516b043b5817727b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f091c487adfc575915a2a4d17d3897') in 0.006192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_inset_candles.fbx
+  artifactKey: Guid(b16cba79d463a498c83c28104f9ee583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_inset_candles.fbx using Guid(b16cba79d463a498c83c28104f9ee583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf5c7bcc658d9275bdc803f50215497') in 0.006718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_open_scaffold.fbx
+  artifactKey: Guid(5facee709b0ca4301a5375dfa273f710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_open_scaffold.fbx using Guid(5facee709b0ca4301a5375dfa273f710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33df832b6f75c7af774d04fd2d12fb3') in 0.006617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_Tsplit.fbx
+  artifactKey: Guid(1a757ee0f41c64ba69d4e38f5d1e758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_Tsplit.fbx using Guid(1a757ee0f41c64ba69d4e38f5d1e758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef48ec904655a0b1c58cd7b97b15ee2f') in 0.006813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_inset_shelves.fbx
+  artifactKey: Guid(98f9ab6efda934665bb871715e20102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_inset_shelves.fbx using Guid(98f9ab6efda934665bb871715e20102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83111498b41d2dd332fc48436915aa55') in 0.006315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_corner_gated.fbx
+  artifactKey: Guid(789df947acdea4d79abcfd8d75c5bbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_corner_gated.fbx using Guid(789df947acdea4d79abcfd8d75c5bbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2abb57433a731e9ede475184f11f4c') in 0.006396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_corner_small.fbx
+  artifactKey: Guid(30aa20f92434e4962873456b1f8e8025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_corner_small.fbx using Guid(30aa20f92434e4962873456b1f8e8025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225613fb33a8388e65096d5a1cc24dbe') in 0.006039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_sloped.fbx
+  artifactKey: Guid(7efbaf6ba8591483ab4019876c35c25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_sloped.fbx using Guid(7efbaf6ba8591483ab4019876c35c25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa328d6f69940f0920c0b55a25ab3871') in 0.006610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_arched.fbx
+  artifactKey: Guid(24e1920890114406f9c90cf7ab9b5ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/fbx/wall_arched.fbx using Guid(24e1920890114406f9c90cf7ab9b5ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031d2c14b73a52bb47eba4ce386bd087') in 0.006409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
