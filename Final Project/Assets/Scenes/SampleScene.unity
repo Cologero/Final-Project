@@ -8981,7 +8981,7 @@ MonoBehaviour:
   moveSpeed: 5
   jumpForce: 10
   gravityModifier: 1
-  mouseSensitivity: 1
+  mouseSensitivity: 5
   theCamera: {fileID: 963194228}
   groundCheckpoint: {fileID: 1603520206}
   whatIsGround:
