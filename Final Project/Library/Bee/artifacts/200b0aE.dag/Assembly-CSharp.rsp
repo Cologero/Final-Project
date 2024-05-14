@@ -356,6 +356,8 @@
 "Assets/Scripts/FirstPersonCamera.cs"
 "Assets/Scripts/FirstpersonMovement.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/LevelSelect.cs"
+"Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/PlayerHealth.cs"
 -langversion:9.0
 
