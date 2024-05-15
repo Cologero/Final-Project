@@ -13,7 +13,7 @@ public class MainMenu : MonoBehaviour
     SceneManager.LoadScene(startingScene);
    }
 
-   public void OnPlayButtonReleased()
+   public void OnQuitButtonPressed()
    {
     Application.Quit();
    }

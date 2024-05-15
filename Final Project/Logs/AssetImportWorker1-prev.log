@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49369
+49650
 Successfully changed project path to: /Users/lennonalvarez146/Documents/GitHub/Final-Project/Final Project
 /Users/lennonalvarez146/Documents/GitHub/Final-Project/Final Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/lennonalvarez146/Documents/GitHub/F
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8344763072] Host "[IP] 10.194.21.245 [Port] 0 [Flags] 2 [Guid] 1387740714 [EditorId] 1387740714 [Version] 1048832 [Id] OSXEditor(0,mac-studio-5.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8344763072] Host "[IP] 10.194.21.245 [Port] 0 [Flags] 2 [Guid] 1096092900 [EditorId] 1096092900 [Version] 1048832 [Id] OSXEditor(0,mac-studio-5.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8344763072] Host "[IP] 10.194.21.245 [Port] 0 [Flags] 2 [Guid] 1387740714 [EditorId] 1387740714 [Version] 1048832 [Id] OSXEditor(0,mac-studio-5.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8344763072] Host "[IP] 10.194.21.245 [Port] 0 [Flags] 2 [Guid] 1096092900 [EditorId] 1096092900 [Version] 1048832 [Id] OSXEditor(0,mac-studio-5.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 2.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,46 +76,46 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56209
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001042 seconds.
-- Loaded All Assemblies, in  0.180 seconds
+Registered in 0.001211 seconds.
+- Loaded All Assemblies, in  0.174 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.130 seconds
-Domain Reload Profiling: 310ms
-	BeginReloadAssembly (42ms)
+- Finished resetting the current domain, in  0.123 seconds
+Domain Reload Profiling: 297ms
+	BeginReloadAssembly (37ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (21ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (82ms)
-		LoadAssemblies (42ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (81ms)
+		LoadAssemblies (37ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (81ms)
+		AnalyzeDomain (80ms)
 			TypeCache.Refresh (80ms)
 				TypeCache.ScanAssembly (72ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (131ms)
+	FinalizeReload (123ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (96ms)
+		SetupLoadedEditorAssemblies (92ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (65ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
+			ProcessInitializeOnLoadAttributes (62ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,8 +123,8 @@ Domain Reload Profiling: 310ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.311 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.328 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -132,48 +132,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.272 seconds
-Domain Reload Profiling: 583ms
-	BeginReloadAssembly (63ms)
+- Finished resetting the current domain, in  0.311 seconds
+Domain Reload Profiling: 639ms
+	BeginReloadAssembly (69ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (20ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (201ms)
-		LoadAssemblies (134ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (210ms)
+		LoadAssemblies (139ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (95ms)
-			TypeCache.Refresh (87ms)
-				TypeCache.ScanAssembly (78ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
+		AnalyzeDomain (102ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (84ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (272ms)
+	FinalizeReload (311ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (195ms)
+		SetupLoadedEditorAssemblies (224ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (26ms)
-			ProcessInitializeOnLoadAttributes (156ms)
-			ProcessInitializeOnLoadMethodAttributes (8ms)
-			AfterProcessingInitializeOnLoad (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3097 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (51.2 KB). Loaded Objects now: 3559.
-Memory consumption went from 129.1 MB to 129.1 MB.
-Total: 2.036125 ms (FindLiveObjects: 0.096875 ms CreateObjectMapping: 0.045125 ms MarkObjects: 1.835000 ms  DeleteObjects: 0.058625 ms)
+Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (51.5 KB). Loaded Objects now: 3573.
+Memory consumption went from 133.2 MB to 133.2 MB.
+Total: 2.272416 ms (FindLiveObjects: 0.107625 ms CreateObjectMapping: 0.048458 ms MarkObjects: 2.052125 ms  DeleteObjects: 0.063958 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -189,586 +189,270 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 251.186454 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/americanidiot_pants_diff.png
-  artifactKey: Guid(ce31770f593e34086bdfed1c6b670735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/americanidiot_pants_diff.png using Guid(ce31770f593e34086bdfed1c6b670735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d753533891bf0a9b91e0cf80a09765') in 0.035880 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/americanidiot_pants_spec.png
-  artifactKey: Guid(99615ea6c566d434ebd8b5bf7045b1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/americanidiot_pants_spec.png using Guid(99615ea6c566d434ebd8b5bf7045b1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c712e66438efdaa9e3f12f6ff9ef4c') in 0.003409 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/teeth_norm.png
-  artifactKey: Guid(7d92f8206ccdb4e1f8b97c18882501ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/teeth_norm.png using Guid(7d92f8206ccdb4e1f8b97c18882501ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69286c8c540e8b81a7e52d01f3c61c18') in 0.002848 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/americanidiot_torso_diff.png
-  artifactKey: Guid(d65b4ce71087a4a43b29b8a33742ff8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/americanidiot_torso_diff.png using Guid(d65b4ce71087a4a43b29b8a33742ff8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ee0c1c6174409925cad23eb50ab480') in 0.003223 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/eye_cubetex.png
-  artifactKey: Guid(252b631d861b74d3fa87ca8296c9e163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/eye_cubetex.png using Guid(252b631d861b74d3fa87ca8296c9e163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bc74b40e464bd29d4d22393a2fe3ec') in 0.002282 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoehair_spec2.png
-  artifactKey: Guid(1881bef970ab6406bacbbb67545eac2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoehair_spec2.png using Guid(1881bef970ab6406bacbbb67545eac2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f3d70aca5489bd22362de3f4a48642') in 0.002401 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/americanidiot_pants_norm.png
-  artifactKey: Guid(e77bb51d9f4954f2c8d4f0e70dc90933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/americanidiot_pants_norm.png using Guid(e77bb51d9f4954f2c8d4f0e70dc90933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99dbcfcfd97202c73455bb33b3cfcb6') in 0.003804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/americanidiot_torso_spec2.png
-  artifactKey: Guid(0bae57b41f3984bcebb3eb485ae32d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/americanidiot_torso_spec2.png using Guid(0bae57b41f3984bcebb3eb485ae32d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ed31747f9376ad084bffe19b4e9197') in 0.002797 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/skin_detail_normals.png
-  artifactKey: Guid(fc133568e87834807912e8ce0f6e70a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/skin_detail_normals.png using Guid(fc133568e87834807912e8ce0f6e70a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f927134763bea80a83ed9c34e64fc8e5') in 0.002942 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/americanidiot_torso_spec.png
-  artifactKey: Guid(66c840eeb790243618ee13ebb7d612f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/americanidiot_torso_spec.png using Guid(66c840eeb790243618ee13ebb7d612f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec62a96f24958dde483e0aeee51b1fb8') in 0.003075 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/hair_detail_normals.png
-  artifactKey: Guid(2dbf9546fdc714d69b34d8b5a30b3763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/hair_detail_normals.png using Guid(2dbf9546fdc714d69b34d8b5a30b3763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f009fcac45bf96a3ece95f667605dc5') in 0.002559 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoe_idiothead_diff.png
-  artifactKey: Guid(f3788711647dc442a8e65246bdda8bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoe_idiothead_diff.png using Guid(f3788711647dc442a8e65246bdda8bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02823aaa977f23d61329ee6d5b33ccb3') in 0.002811 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/eye_diffuse.png
-  artifactKey: Guid(fff368de5c60946a28371d79669290b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/eye_diffuse.png using Guid(fff368de5c60946a28371d79669290b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6076b6294e6f35fc6297b94db35e62b') in 0.002499 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoe_spec2.png
-  artifactKey: Guid(3910f8a2821d44d9fb5527f29c02e580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoe_spec2.png using Guid(3910f8a2821d44d9fb5527f29c02e580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fe9b4e70527daf66524579638bde53') in 0.002430 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoe_spec.png
-  artifactKey: Guid(35eee8aa3660f45109e3d468e700a849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoe_spec.png using Guid(35eee8aa3660f45109e3d468e700a849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4f56e7d4aba13d60acdd9b8825dd74') in 0.002324 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoehair_diffuse.png
-  artifactKey: Guid(3abe7a6340a6d4d55b28db7ddf0799b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoehair_diffuse.png using Guid(3abe7a6340a6d4d55b28db7ddf0799b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132f8f7941b661b7b1a25214100a443e') in 0.001836 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoebody_diff.png
-  artifactKey: Guid(6c60415be60d74e3d84d726f35e958c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoebody_diff.png using Guid(6c60415be60d74e3d84d726f35e958c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8adf7c208cee3dd7387f698c0c54b25') in 0.003539 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoehair_norm.png
-  artifactKey: Guid(11100f28e44504c30be00da657c864e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoehair_norm.png using Guid(11100f28e44504c30be00da657c864e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcda95f55493b6d0abceb69104fc97ae') in 0.002998 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoehair_spec.png
-  artifactKey: Guid(15753b5f78dca421994c6f674b4f574b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoehair_spec.png using Guid(15753b5f78dca421994c6f674b4f574b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5da2d36b6ed02ed62f11a764eff4c47') in 0.002501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/teeth_diff.png
-  artifactKey: Guid(abbb88a7841c244f2af1ced77a4e25cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/teeth_diff.png using Guid(abbb88a7841c244f2af1ced77a4e25cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bc2a1de67ce809291088fea65e79b4') in 0.002979 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoe shoes_diff.png
-  artifactKey: Guid(29c4702cdebbe418aa90adee0fde25cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoe shoes_diff.png using Guid(29c4702cdebbe418aa90adee0fde25cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7649ba6ca0a181a371c0c8ece2cbbacc') in 0.003524 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoe_norm.png
-  artifactKey: Guid(265ce6f12593a4af6a397f8b2b7bfe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/billiejoe_norm.png using Guid(265ce6f12593a4af6a397f8b2b7bfe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8870cb2df1fb643303b567a6a414be3c') in 0.002820 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/americanidiot_pants_spec2.png
-  artifactKey: Guid(4e1b8c4b2fb97457e8618de28fc69e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/americanidiot_pants_spec2.png using Guid(4e1b8c4b2fb97457e8618de28fc69e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38c0123d32df03c5941df7b516908eb') in 0.003243 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/americanidiot_torso_norm.png
-  artifactKey: Guid(e82d764cae7e64f3caedea9e9d81fc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 3/americanidiot_torso_norm.png using Guid(e82d764cae7e64f3caedea9e9d81fc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1bcb6553509ccc35a23c67ad7f07e0') in 0.003372 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 71.827634 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/americanidiot_pants_diff.png
-  artifactKey: Guid(0375c23afc9b64b8a9369737f27b5adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/americanidiot_pants_diff.png using Guid(0375c23afc9b64b8a9369737f27b5adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe083afd0bc26f734757c5fbfc09ce9') in 0.008486 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoe_spec2.png
-  artifactKey: Guid(a03662d678b284590b641c37f8f176f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoe_spec2.png using Guid(a03662d678b284590b641c37f8f176f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8461d677ea6aa0184367be569a75426b') in 0.004286 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/americanidiot_torso_diff.png
-  artifactKey: Guid(80fa63b670e0a4123ba6a78c2c8c806b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/americanidiot_torso_diff.png using Guid(80fa63b670e0a4123ba6a78c2c8c806b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3a69151d783f3e5a3509f5a9e30949') in 0.003905 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoebody_diff.png
-  artifactKey: Guid(efc00af4de1b84e79ae72b5d48d92db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoebody_diff.png using Guid(efc00af4de1b84e79ae72b5d48d92db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d2d8803e359b4cfca233c6254db036') in 0.004021 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoe_idiothead_diff.png
-  artifactKey: Guid(d2e5f0c80ecb64b3f836914093e87c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoe_idiothead_diff.png using Guid(d2e5f0c80ecb64b3f836914093e87c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2154ebf81ea3125c2a0c5c20a90bcb') in 0.003401 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/teeth_diff.png
-  artifactKey: Guid(03c1c2c81d3a44ca1a6654e8fa3b81f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/teeth_diff.png using Guid(03c1c2c81d3a44ca1a6654e8fa3b81f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade06b06c2e2dbb2991d2d8f3e9b0594') in 0.003513 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoe_spec.png
-  artifactKey: Guid(e0d3f7de6896f472aa533c74274426af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoe_spec.png using Guid(e0d3f7de6896f472aa533c74274426af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f322a5255369d77ec540f7cf514e43') in 0.003971 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/americanidiot_pants_norm.png
-  artifactKey: Guid(331252440f9b94b02ba789aee5179066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/americanidiot_pants_norm.png using Guid(331252440f9b94b02ba789aee5179066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d7fef08e49cfd2bbdee434779d7976') in 0.003828 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/americanidiot_torso_spec2.png
-  artifactKey: Guid(9d5b9b2ba9fd74dce959b5215935e4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/americanidiot_torso_spec2.png using Guid(9d5b9b2ba9fd74dce959b5215935e4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a73c26a9010b82fe8c2e058ebe62bdc') in 0.003141 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoehair_diffuse.png
-  artifactKey: Guid(37c506faf23234ad0a3aa2856b781582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoehair_diffuse.png using Guid(37c506faf23234ad0a3aa2856b781582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee61e839eff9403d20080745475e022') in 0.002523 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/americanidiot_torso_spec.png
-  artifactKey: Guid(c0aace51c04954ab0b2153fe30722ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/americanidiot_torso_spec.png using Guid(c0aace51c04954ab0b2153fe30722ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d336feb2247943c7c835af2cf7cef85') in 0.002978 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoebody_norm.png
-  artifactKey: Guid(5b9fd981a17be4736a6ab96abb2cfc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoebody_norm.png using Guid(5b9fd981a17be4736a6ab96abb2cfc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0203a95e7f96716b92b16184e69404') in 0.002835 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/eye_diffuse.png
-  artifactKey: Guid(e5923558123cd42a8bfff5fa070b115b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/eye_diffuse.png using Guid(e5923558123cd42a8bfff5fa070b115b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aca88244a8387d2bcc71f9ba7460b7a') in 0.002765 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/americanidiot_pants_spec2.png
-  artifactKey: Guid(a65da8861083e4ec5bfaba22dc8b6907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/americanidiot_pants_spec2.png using Guid(a65da8861083e4ec5bfaba22dc8b6907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a69fc19ecfd3a47035daca2c500d83d') in 0.002526 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoehair_norm.png
-  artifactKey: Guid(bcc3023b4f54e4ac7b19c71ec7daa406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoehair_norm.png using Guid(bcc3023b4f54e4ac7b19c71ec7daa406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c81dc5ba6dda8c35afebcf6082c20ca') in 0.002953 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/teeth_norm.png
-  artifactKey: Guid(1e2e76ae14e9a4b51bd860cf6d454222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/teeth_norm.png using Guid(1e2e76ae14e9a4b51bd860cf6d454222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90abec6a92413e8e72845c2d1fcbbc15') in 0.002541 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoe_norm.png
-  artifactKey: Guid(71c2db3fe731345e8bf071a23860713c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoe_norm.png using Guid(71c2db3fe731345e8bf071a23860713c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ea74342e71b967a46db7e2395b4124') in 0.002446 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoehair_spec2.png
-  artifactKey: Guid(475a05b94f2b8496cb869e99c0177c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoehair_spec2.png using Guid(475a05b94f2b8496cb869e99c0177c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848a3e2023c01dbf31b59ecfb3412a84') in 0.002270 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoehair_spec.png
-  artifactKey: Guid(8cbc03346e3f1428f8e5becacbd3d505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoehair_spec.png using Guid(8cbc03346e3f1428f8e5becacbd3d505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2fb679f2f0f9b29920e5d37dab9586') in 0.002469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoe shoes_diff.png
-  artifactKey: Guid(4014f1b4b60ac48158621d66b80ff57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/billiejoe shoes_diff.png using Guid(4014f1b4b60ac48158621d66b80ff57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a6e846cdc71cedcc6ff87058a7de66') in 0.002532 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/americanidiot_torso_norm.png
-  artifactKey: Guid(1869f62ac5c7a45a8be5574586127d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/americanidiot_torso_norm.png using Guid(1869f62ac5c7a45a8be5574586127d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3b9973a2797e5522996c087da30784') in 0.002837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/eye_cubetex.png
-  artifactKey: Guid(d90ade154d53642999bc086f9ccf0fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/eye_cubetex.png using Guid(d90ade154d53642999bc086f9ccf0fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca22d2d61c16853422c2ca0663208459') in 0.003576 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/hair_detail_normals.png
-  artifactKey: Guid(c1a911654a2544914a27f33bae484332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/hair_detail_normals.png using Guid(c1a911654a2544914a27f33bae484332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad2e76f9846c538778d39db9d1dc507') in 0.002027 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/skin_detail_normals.png
-  artifactKey: Guid(5857c2f613728457fbe72aff0dc2b2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/skin_detail_normals.png using Guid(5857c2f613728457fbe72aff0dc2b2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30d92ba12e2e94a7b7becb7cb14f367') in 0.002483 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/americanidiot_pants_spec.png
-  artifactKey: Guid(e75999d9c38a544a5a74257db5a912dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot 2/americanidiot_pants_spec.png using Guid(e75999d9c38a544a5a74257db5a912dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072dee8efffa2f2b7506428c0c5f4d13') in 0.002907 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.906245 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/americanidiot_pants_diff.png
-  artifactKey: Guid(5c9c32d7ca1344ac38a25139748907ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/americanidiot_pants_diff.png using Guid(5c9c32d7ca1344ac38a25139748907ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4b14d0b0200466dcfa89b4c954d024') in 0.009484 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/hair_detail_normals.png
-  artifactKey: Guid(2d428b6f3e0f743f4802188ffb5daae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/hair_detail_normals.png using Guid(2d428b6f3e0f743f4802188ffb5daae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6aa836fbfb7d76108e346b8a4b70fff') in 0.004365 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/billiejoebody_diff.png
-  artifactKey: Guid(b9a78c379939c44f8b90c66bf9bbe4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/billiejoebody_diff.png using Guid(b9a78c379939c44f8b90c66bf9bbe4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12ff3f8936f5dfd7874c6f2b9a3b309') in 0.004682 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/americanidiot_torso_spec2.png
-  artifactKey: Guid(97901ce02abdf489e9895cb052d521fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/americanidiot_torso_spec2.png using Guid(97901ce02abdf489e9895cb052d521fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb1d5798e8c5b77cedfaa16ef771318') in 0.003551 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/billiejoe_spec.png
-  artifactKey: Guid(4531f181ecfc04ed492cd3d60e081ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/billiejoe_spec.png using Guid(4531f181ecfc04ed492cd3d60e081ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec949bd44741c60db9e9b2025b76fc12') in 0.003771 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/billiejoehair_spec.png
-  artifactKey: Guid(9521f7363f167456eb8c6dc3600e4ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/billiejoehair_spec.png using Guid(9521f7363f167456eb8c6dc3600e4ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f8a5d730fe2e24bdce4346582c5066') in 0.002994 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/americanidiot_torso_diff.png
-  artifactKey: Guid(4ff175bb3d8ad4da7b87edee144b7be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/americanidiot_torso_diff.png using Guid(4ff175bb3d8ad4da7b87edee144b7be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e96a7866430ff2c12b4f16e2ad30f32') in 0.003594 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/billiejoe shoes_diff.png
-  artifactKey: Guid(eba7f89f38539452698a4dc2e221b18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/billiejoe shoes_diff.png using Guid(eba7f89f38539452698a4dc2e221b18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26c1b182ba5bc1b8796dfaf2b8d9ea0') in 0.003509 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/billiejoehair_spec2.png
-  artifactKey: Guid(07bc8b1ece83c4d15bc7a372c2595c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/billiejoehair_spec2.png using Guid(07bc8b1ece83c4d15bc7a372c2595c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d0f0865a426cc2a5c016f6b1f2fa9d') in 0.002560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/billiejoehair_diffuse.png
-  artifactKey: Guid(6de30c450fb2d42e1a104633fbe815d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/billiejoehair_diffuse.png using Guid(6de30c450fb2d42e1a104633fbe815d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62478821e7eba0acda41c163feba88d') in 0.002490 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/billiejoe_norm.png
-  artifactKey: Guid(65344430e56144b1da76a336492aa17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/billiejoe_norm.png using Guid(65344430e56144b1da76a336492aa17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44da29209aa01e88e1cf0d7b78f992ba') in 0.003319 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/americanidiot_torso_norm.png
-  artifactKey: Guid(8dad91aa8b7f244fc85d0f7e43725b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/americanidiot_torso_norm.png using Guid(8dad91aa8b7f244fc85d0f7e43725b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af59aec666ef8d78c5f5bf2879ac67ed') in 0.004040 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/billiejoe_spec2.png
-  artifactKey: Guid(6b9687a3fa12f44809e6e7d95b6eaec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/billiejoe_spec2.png using Guid(6b9687a3fa12f44809e6e7d95b6eaec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1aa5be835e5626602a81a4206571c9') in 0.004089 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/eye_cubetex.png
-  artifactKey: Guid(65d66aabf21ca400386d9e746000f6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/eye_cubetex.png using Guid(65d66aabf21ca400386d9e746000f6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a4559d660f53bb4ec2950ce049f279') in 0.002376 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/americanidiot_pants_spec.png
-  artifactKey: Guid(192942314d2984f89ba850abd4fca625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/PlayStation 3 - Green Day Rock Band - Billie Joe Armstrong American Idiot/americanidiot_pants_spec.png using Guid(192942314d2984f89ba850abd4fca625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05389cdb5bb702f0e6fb086869878d7') in 0.004038 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 9.570567 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/obj/banner_brown.obj
-  artifactKey: Guid(111b427700c164f0181f94e897a706a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/obj/banner_brown.obj using Guid(111b427700c164f0181f94e897a706a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9676629ecf0fb4107f5ff8a1a77a4899') in 0.050727 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/obj/banner_shield_blue.obj
-  artifactKey: Guid(f65517befd69d4318970c60e49168c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/obj/banner_shield_blue.obj using Guid(f65517befd69d4318970c60e49168c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3d482bec336e0e93ee8d44ad2326c4') in 0.008723 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/obj/banner_shield_green.obj
-  artifactKey: Guid(a7845eed424a74291a0cc4f4f7864bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/obj/banner_shield_green.obj using Guid(a7845eed424a74291a0cc4f4f7864bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3e9e82e33d0dc778946ec034eed67d') in 0.008231 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/obj/banner_shield_white.obj
-  artifactKey: Guid(5996399bcb5494cf8bdc01465ae9daa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/obj/banner_shield_white.obj using Guid(5996399bcb5494cf8bdc01465ae9daa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307787dbb344addfb3af1324b8b8e9ed') in 0.008807 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/obj/banner_patternB_red.obj
-  artifactKey: Guid(5451bd02f5e754286a5669f9f84cce7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/obj/banner_patternB_red.obj using Guid(5451bd02f5e754286a5669f9f84cce7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be1458c459a704bb508225f87ed36b1') in 0.008034 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/obj/banner_patternA_white.obj
-  artifactKey: Guid(a5802be5bcaae4dc28177d4fb2d06fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/obj/banner_patternA_white.obj using Guid(a5802be5bcaae4dc28177d4fb2d06fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a108df86af4cd75a16fdc040893b0f6') in 0.008423 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/obj/banner_thin_brown.obj
-  artifactKey: Guid(218e1db964e904170973745dd899d774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/obj/banner_thin_brown.obj using Guid(218e1db964e904170973745dd899d774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e676f0ed68752c5245145045dd36f5') in 0.008479 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/obj/banner_thin_red.obj
-  artifactKey: Guid(77a5612f7cf964bd8833166533f03a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/obj/banner_thin_red.obj using Guid(77a5612f7cf964bd8833166533f03a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba62cc3745aec7f303676d682e8f4fc') in 0.009276 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/obj/banner_patternB_green.obj
-  artifactKey: Guid(e99c9ad5e272c4b28acae311c0e8704c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gunegon Asset/Enviorment/KayKit_DungeonRemastered_1.0_SOURCE 2/Assets/obj/banner_patternB_green.obj using Guid(e99c9ad5e272c4b28acae311c0e8704c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c3869e82fac6edf5ba7a5adcaf60ad') in 0.009602 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x31c573000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.219 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.385 seconds
+Domain Reload Profiling: 604ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (122ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (385ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (196ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (150ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3576.
+Memory consumption went from 133.4 MB to 133.3 MB.
+Total: 2.103959 ms (FindLiveObjects: 0.083458 ms CreateObjectMapping: 0.052042 ms MarkObjects: 1.936125 ms  DeleteObjects: 0.032042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x30e61b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.222 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.377 seconds
+Domain Reload Profiling: 599ms
+	BeginReloadAssembly (74ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (108ms)
+		LoadAssemblies (125ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (377ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (180ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3579.
+Memory consumption went from 140.2 MB to 140.2 MB.
+Total: 1.872500 ms (FindLiveObjects: 0.097958 ms CreateObjectMapping: 0.044667 ms MarkObjects: 1.701500 ms  DeleteObjects: 0.028125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x30db87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.220 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.394 seconds
+Domain Reload Profiling: 614ms
+	BeginReloadAssembly (71ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (112ms)
+		LoadAssemblies (125ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (394ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (190ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3583.
+Memory consumption went from 147.2 MB to 147.1 MB.
+Total: 1.885625 ms (FindLiveObjects: 0.096125 ms CreateObjectMapping: 0.046375 ms MarkObjects: 1.713042 ms  DeleteObjects: 0.029708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x30db87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.213 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.383 seconds
+Domain Reload Profiling: 596ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (105ms)
+		LoadAssemblies (120ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (383ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (180ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (139ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3586.
+Memory consumption went from 154.1 MB to 154.0 MB.
+Total: 2.140708 ms (FindLiveObjects: 0.103500 ms CreateObjectMapping: 0.046083 ms MarkObjects: 1.958125 ms  DeleteObjects: 0.032916 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
