@@ -21800,6 +21800,7 @@ GameObject:
   - component: {fileID: 1399816222}
   - component: {fileID: 1399816221}
   - component: {fileID: 1399816220}
+  - component: {fileID: 1399816226}
   m_Layer: 0
   m_Name: EVIL LEBRON
   m_TagString: Untagged
@@ -21940,6 +21941,21 @@ Transform:
   - {fileID: 2120282979}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1399816226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399816219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f9d2a60c6a3d46cfbb5ee7e9115d120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _damageAmount: 1
+  _enemymovement: {fileID: 1399816220}
+  _player: {fileID: 521063998}
 --- !u!1 &1400689906 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ad567f8bb6ab646468089da51b67d2ff, type: 3}
